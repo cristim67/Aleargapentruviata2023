@@ -1,0 +1,173 @@
+
+
+.zoom6{
+    zoom:0.6;
+}
+
+.zoomprincipal{
+   zoom:1.67;
+}
+
+.imagprinc{
+   zoom:0.60;
+   margin-top:3.4rem;
+  background-repeat: no-repeat;
+}
+
+    
+    
+    
+.titluimag{
+    margin-top:2.4rem;
+    transform: scale(0.7);
+    
+}
+
+.map{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media screen and (max-width: 700px){
+.afis-pc{
+   display:none;
+}
+
+.about-pc{
+    display:none;
+}
+
+}
+
+
+@media screen and (min-width:700px){
+    .afis-tel{
+        display:none;
+    }
+    .about-tel{
+        display:none;
+    }
+    .spamtel{
+        display:none;
+    }
+    .tel{
+        display:none;
+    }
+}
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+/*@media (min-width: 481px) and (max-width: 767px) {*/
+  
+/*    :root{*/
+/*     overflow: hidden!important;  */
+/*  }*/
+  
+/*  header{*/
+/*      overflow: hidden !important;*/
+/*  }*/
+  
+/*.cs-main_header_in{*/
+/*    width: 10px!important;*/
+/*}*/
+/*}*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/*@media (min-width: 300px) and (max-width: 390px) {*/
+  
+/*    :root{*/
+/*     overflow: hidden!important;  */
+/*  }*/
+  
+/*  header{*/
+/*      overflow: hidden !important;*/
+/*  }*/
+  
+/*.cs-main_header_in{*/
+/*    width: 10px!important;*/
+/*}*/
+
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
